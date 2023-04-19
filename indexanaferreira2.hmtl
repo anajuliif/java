@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: cornflowerblue;
+        }
+            </style>
+            
+</head>
+<body>
+    <script>
+      <!DOCTYPE html>
+<html>
+ <head>
+    <title>Conversão de fahrenheit para celsius</title>
+    <script type="text/javascript" src="script.js"></script>
+ </head>
+ <body>
+  <input type="radio" name="converter" id="CtoF"/>Celsius para Fahrenheit <br />
+    <input type="radio" name="converter" id="FtoC"/>Fahrenheit para Celsius <br />
+    Converter valor :<input id="num" type="number"> <br />
+  <button onclick="main()">Calcular</button><br />
+  Resposta: <div id="resposta" style='display:inline'></div><br />
+</html>
+
+</body>
+</html>
